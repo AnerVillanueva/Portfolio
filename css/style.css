@@ -127,7 +127,7 @@ ul
 {
     font-size: 16px;
     font-weight: 500;
-    padding: 12px 35px;
+    padding: 15px 35px;
     color: white;
     border-radius: 40px;
     display: inline-block;
@@ -214,8 +214,8 @@ ul
 
 .aside .nav-toggler
 {
-    height: 80px;
-    width: 90px;
+    height: 40px;
+    width: 45px;
     border: 1px solid var(--bg-black-50);
     cursor: pointer;
     position: fixed;
@@ -230,8 +230,8 @@ ul
 
 .aside .nav-toggler span
 {
-    height: 4px;
-    width: 36px;
+    height: 2px;
+    width: 18px;
     background: var(--skin-color);
     display: inline-block;
     position: relative;
@@ -240,22 +240,22 @@ ul
 .aside .nav-toggler span::before
 {
     content: '';
-    height: 4px;
-    width: 36px;
+    height: 2px;
+    width: 18px;
     background: var(--skin-color);
     position: absolute;
-    top: -12px;
+    top: -6px;
     left: 0;
 }
 
 .aside .nav-toggler span::after
 {
     content: '';
-    height: 4px;
-    width: 36px;
+    height: 2px;
+    width: 18px;
     background: var(--skin-color);
     position: absolute;
-    top: 12px;
+    top: 6px;
     left: 0;
 }
 
@@ -879,10 +879,15 @@ h3.my-profession
     .about .about-content .education,
     .about .about-content .experience,
     .about .about-content .skills,
-    .about .about-content .personal-info
+    .about .about-content .personal-info,
+    .about .about-content .personal-info .info-item
     {
         flex: 0 0 100%;
         max-width: 100%;
     }
 
+    .about .about-content .personal-info .btn
+    {
+        padding: 10px 30px;
+    }
 }
