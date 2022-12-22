@@ -888,6 +888,12 @@ h3.my-profession
 
     .about .about-content .personal-info .btn
     {
-        padding: 10px 30px;
+
+        padding: 15px 33px;
+    }
+
+    .home .home-info
+    {
+        text-align: center;
     }
 }
